@@ -53,10 +53,11 @@ button
     border-radius: 4px;
 }
 
-/* ul */
+/* ul general */
 ul
 {
-    margin: 30px;
+    margin: 25px;
+    padding-left: 18px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 1.3em;
@@ -65,9 +66,10 @@ ul
 
 li
 {
-    margin-top: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
-
+/* entities */
 .check-mark
 {
     color: #9DD9CD;
@@ -79,6 +81,18 @@ li
     margin: auto;
 }
 
+.cross-mark
+{
+    color: #EC6158;
+    display: inline-block;
+    border: 2px solid #EC6158;
+    border-radius: 50%;
+    font-size: 0.8em;
+    padding: 5px;
+    margin: auto;
+}
+
+/* task */
 .task
 {
     font-family: 'Roboto', sans-serif;
@@ -86,16 +100,47 @@ li
     display: inline-block;
 }
 
+/* boxes-general */
 .little-boxes
 {
     display: inline-block;
     font-size: 15px;
     color: white;
     font-weight: 100;
-    background-color: #45ABEA;
     border-radius: 15px;
     padding: 8px;
 }
+
+/* color-boxes */
+.blue 
+{
+    background-color: #45ABEA;
+}
+.purple
+{
+    background-color: #9C72E4;
+}
+
+.green
+{
+    background-color: #63C0A9;
+}
+
+.orange
+{
+    background-color: #F29E33;
+}
+
+.pink
+{
+    background-color: #D763A1;
+}
+
+.light-green
+{
+    background-color: #B0C925;
+}
+
 
 
 
