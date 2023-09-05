@@ -41,6 +41,7 @@ main
 nav
 {
     padding: 18px 0px 12px 40px;
+    border-bottom: 3px solid #F5F8F9;
 }
 
 button
@@ -51,5 +52,50 @@ button
     border: none;
     border-radius: 4px;
 }
+
+/* ul */
+ul
+{
+    margin: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.3em;
+    list-style: none;
+}
+
+li
+{
+    margin-top: 10px;
+}
+
+.check-mark
+{
+    color: #9DD9CD;
+    display: inline-block;
+    border: 2px solid #9DD9CD;
+    border-radius: 50%;
+    font-size: 0.8em;
+    padding: 5px;
+    margin: auto;
+}
+
+.task
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.little-boxes
+{
+    display: inline-block;
+    font-size: 15px;
+    color: white;
+    font-weight: 100;
+    background-color: #45ABEA;
+    border-radius: 15px;
+    padding: 8px;
+}
+
 
 
