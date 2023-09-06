@@ -89,8 +89,10 @@ li
     border: 2px solid #9DD9CD;
     border-radius: 50%;
     font-size: 0.8em;
-    padding: 5px;
-    margin: auto;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
 }
 
 .cross-mark
@@ -100,8 +102,10 @@ li
     border: 2px solid #EC6158;
     border-radius: 50%;
     font-size: 0.8em;
-    padding: 5px;
-    margin: auto;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
 }
 
 /* task font */
@@ -121,6 +125,7 @@ li
     font-weight: 100;
     border-radius: 15px;
     padding: 8px;
+    vertical-align: baseline;
 }
 
 /* color-boxes */
